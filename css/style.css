@@ -6,6 +6,7 @@
 }
 
 .container {
+    padding: 20px 0 20px 0;
     margin: auto;
     max-width: 1000px;
 }
@@ -19,8 +20,12 @@
 /* products grid */
 .product {
     width: calc(100% / 3 - 8px);
-    height: 200px;
+    height: 100%;
     background-color: pink;
     float: left;
     margin: 0 4px;
+}
+
+img {
+    width: 100%;
 }
