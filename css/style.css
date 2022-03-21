@@ -96,3 +96,16 @@ img {
 .sustainability-label {
     background-color: rgb(105, 168, 21);
 }
+
+/* hover */
+.product-img-2{
+    display: none;
+}
+
+.product:hover .product-img-1 {
+    display: none;
+}
+
+.product:hover .product-img-2 {
+    display: block;
+}
