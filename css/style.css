@@ -74,5 +74,25 @@ img {
 
 .heart-icon {
     font-size: 1.2em;
-    transform: translate(-50%, -50%);
+}
+
+.labels {
+    position: absolute;
+    bottom: 70px;
+    margin-right: 8px;
+}
+
+.discount-label, .sustainability-label {
+    font-size: 0.7em;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.discount-label {
+    background-color: tomato;
+}
+
+.sustainability-label {
+    background-color: rgb(105, 168, 21);
 }
