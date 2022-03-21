@@ -24,6 +24,7 @@ body {
 
 /* products grid */
 .product {
+    position: relative;
     width: calc(100% / 3 - 8px);
     height: 100%;
     float: left;
@@ -61,4 +62,17 @@ img {
 .product .discounted-price {
     margin-left: 4px;
     text-decoration: line-through;
+}
+
+.wishlist {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.heart-icon {
+    font-size: 1.2em;
+    transform: translate(-50%, -50%);
 }
